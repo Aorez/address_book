@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{66B71AF0-EB87-4C54-9860-E3DC6F5F5037}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>AddressBook</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>通讯录</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AddDlg.h" />
+    <ClInclude Include="AddressBook.h" />
+    <ClInclude Include="AddressBookDlg.h" />
+    <ClInclude Include="DetatilsDlg.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="Logindlg.h" />
+    <ClInclude Include="LoginDlg2.h" />
+    <ClInclude Include="ModifyDlg.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="ResetDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RoundButton.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddDlg.cpp" />
+    <ClCompile Include="AddressBook.cpp" />
+    <ClCompile Include="AddressBookDlg.cpp" />
+    <ClCompile Include="DetatilsDlg.cpp" />
+    <ClCompile Include="Function.cpp" />
+    <ClCompile Include="Logindlg.cpp" />
+    <ClCompile Include="LoginDlg2.cpp" />
+    <ClCompile Include="ModifyDlg.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="ResetDlg.cpp" />
+    <ClCompile Include="RoundButton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AddressBook.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AddressBook.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AddressBook.ico" />
+    <Image Include="res\faces\ia_100000001.bmp" />
+    <Image Include="res\faces\ia_100000002.bmp" />
+    <Image Include="res\faces\ia_100000003.bmp" />
+    <Image Include="res\faces\ia_100000004.bmp" />
+    <Image Include="res\faces\ia_100000005.bmp" />
+    <Image Include="res\faces\ia_100000006.bmp" />
+    <Image Include="res\faces\ia_100000007.bmp" />
+    <Image Include="res\faces\ia_100000008.bmp" />
+    <Image Include="res\faces\ia_100000009.bmp" />
+    <Image Include="res\faces\ia_100000010.bmp" />
+    <Image Include="res\faces\ia_100000011.bmp" />
+    <Image Include="res\faces\ia_100000012.bmp" />
+    <Image Include="res\faces\ia_100000013.bmp" />
+    <Image Include="res\faces\ia_100000014.bmp" />
+    <Image Include="res\faces\ia_100000015.bmp" />
+    <Image Include="res\faces\ia_100000016.bmp" />
+    <Image Include="res\faces\ia_100000017.bmp" />
+    <Image Include="res\faces\ia_100000018.bmp" />
+    <Image Include="res\faces\ia_100000019.bmp" />
+    <Image Include="res\faces\ia_100000020.bmp" />
+    <Image Include="res\faces\ia_100000021.bmp" />
+    <Image Include="res\faces\ia_100000022.bmp" />
+    <Image Include="res\faces\ia_100000023.bmp" />
+    <Image Include="res\faces\ia_100000024.bmp" />
+    <Image Include="res\faces\ia_100000025.bmp" />
+    <Image Include="res\faces\ia_100000026.bmp" />
+    <Image Include="res\faces\ia_100000027.bmp" />
+    <Image Include="res\faces\ia_100000028.bmp" />
+    <Image Include="res\faces\ia_100000029.bmp" />
+    <Image Include="res\faces\ia_100000030.bmp" />
+    <Image Include="res\faces\ia_100000031.bmp" />
+    <Image Include="res\faces\ia_100000032.bmp" />
+    <Image Include="res\faces\ia_100000033.bmp" />
+    <Image Include="res\faces\ia_100000034.bmp" />
+    <Image Include="res\faces\ia_100000035.bmp" />
+    <Image Include="res\faces\ia_100000036.bmp" />
+    <Image Include="res\faces\ia_100000037.bmp" />
+    <Image Include="res\faces\ia_100000038.bmp" />
+    <Image Include="res\faces\ia_100000039.bmp" />
+    <Image Include="res\faces\ia_100000040.bmp" />
+    <Image Include="res\faces\ia_100000041.bmp" />
+    <Image Include="res\faces\ia_100000042.bmp" />
+    <Image Include="res\faces\ia_100000043.bmp" />
+    <Image Include="res\faces\ia_100000044.bmp" />
+    <Image Include="res\faces\ia_100000045.bmp" />
+    <Image Include="res\faces\ia_100000046.bmp" />
+    <Image Include="res\faces\ia_100000047.bmp" />
+    <Image Include="res\faces\ia_100000048.bmp" />
+    <Image Include="res\faces\ia_100000049.bmp" />
+    <Image Include="res\faces\ia_100000050.bmp" />
+    <Image Include="res\faces\ia_100000051.bmp" />
+    <Image Include="res\faces\ia_100000052.bmp" />
+    <Image Include="res\faces\ia_100000053.bmp" />
+    <Image Include="res\faces\ia_100000054.bmp" />
+    <Image Include="res\faces\ia_100000055.bmp" />
+    <Image Include="res\faces\ia_100000056.bmp" />
+    <Image Include="res\faces\ia_100000057.bmp" />
+    <Image Include="res\faces\ia_100000058.bmp" />
+    <Image Include="res\faces\ia_100000059.bmp" />
+    <Image Include="res\faces\ia_100000060.bmp" />
+    <Image Include="res\faces\ia_100000061.bmp" />
+    <Image Include="res\faces\ia_100000062.bmp" />
+    <Image Include="res\faces\ia_100000063.bmp" />
+    <Image Include="res\faces\ia_100000064.bmp" />
+    <Image Include="res\faces\ia_100000065.bmp" />
+    <Image Include="res\faces\ia_100000066.bmp" />
+    <Image Include="res\faces\ia_100000067.bmp" />
+    <Image Include="res\faces\ia_100000068.bmp" />
+    <Image Include="res\faces\ia_100000069.bmp" />
+    <Image Include="res\faces\ia_100000070.bmp" />
+    <Image Include="res\faces\ia_100000071.bmp" />
+    <Image Include="res\faces\ia_100000072.bmp" />
+    <Image Include="res\faces\ia_100000073.bmp" />
+    <Image Include="res\faces\ia_100000074.bmp" />
+    <Image Include="res\faces\ia_100000075.bmp" />
+    <Image Include="res\faces\ia_100000076.bmp" />
+    <Image Include="res\faces\ia_100000077.bmp" />
+    <Image Include="res\faces\ia_100000078.bmp" />
+    <Image Include="res\faces\ia_100000079.bmp" />
+    <Image Include="res\faces\ia_100000080.bmp" />
+    <Image Include="res\faces\ia_100000081.bmp" />
+    <Image Include="res\faces\ia_100000082.bmp" />
+    <Image Include="res\faces\ia_100000083.bmp" />
+    <Image Include="res\faces\ia_100000084.bmp" />
+    <Image Include="res\faces\ia_100000085.bmp" />
+    <Image Include="res\faces\ia_100000086.bmp" />
+    <Image Include="res\faces\ia_100000087.bmp" />
+    <Image Include="res\faces\ia_100000088.bmp" />
+    <Image Include="res\loginIcon.ico" />
+    <Image Include="res\mainBitmap.bmp" />
+    <Image Include="res\mainIco.ico" />
+    <Image Include="res\mainICON.ico" />
+    <Image Include="res\searchBitmap.bmp" />
+    <Image Include="res\searchBitmap.png" />
+    <Image Include="res\searchBitmap2.bmp" />
+    <Image Include="res\searchBitmap3.bmp" />
+    <Image Include="res\通讯录主图.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

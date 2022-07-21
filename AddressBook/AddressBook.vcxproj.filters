@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddressBook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressBookDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DetatilsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Logindlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResetDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddressBook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddressBookDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DetatilsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Logindlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResetDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AddressBook.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AddressBook.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AddressBook.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\通讯录主图.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mainBitmap.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\searchBitmap.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\searchBitmap.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\searchBitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\searchBitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mainIco.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\mainICON.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\loginIcon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000001.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000002.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000003.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000004.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000005.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000006.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000007.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000008.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000009.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000010.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000011.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000012.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000013.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000014.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000015.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000016.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000017.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000018.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000019.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000020.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000021.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000022.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000023.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000024.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000025.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000026.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000027.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000028.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000029.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000030.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000031.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000032.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000033.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000034.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000035.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000036.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000037.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000038.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000039.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000040.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000041.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000042.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000043.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000044.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000045.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000046.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000047.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000048.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000049.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000050.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000051.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000052.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000053.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000054.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000055.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000056.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000057.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000058.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000059.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000060.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000061.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000062.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000063.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000064.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000065.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000066.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000067.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000068.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000069.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000070.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000071.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000072.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000073.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000074.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000075.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000076.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000077.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000078.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000079.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000080.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000081.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000082.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000083.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000084.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000085.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000086.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000087.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\faces\ia_100000088.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
